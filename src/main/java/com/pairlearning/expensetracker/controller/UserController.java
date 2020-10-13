@@ -1,7 +1,7 @@
-package com.pairlearning.expensetracker.resources;
+package com.pairlearning.expensetracker.controller;
 
 import com.pairlearning.expensetracker.Constants;
-import com.pairlearning.expensetracker.domain.User;
+import com.pairlearning.expensetracker.model.User;
 import com.pairlearning.expensetracker.services.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/users")
-public class UserResource {
+public class UserController {
 
     @Autowired
     UserService userService;

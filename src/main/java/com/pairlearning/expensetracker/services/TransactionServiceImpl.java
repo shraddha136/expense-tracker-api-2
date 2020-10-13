@@ -1,9 +1,9 @@
 package com.pairlearning.expensetracker.services;
 
-import com.pairlearning.expensetracker.domain.Transaction;
+import com.pairlearning.expensetracker.model.Transaction;
 import com.pairlearning.expensetracker.exceptions.EtBadRequestException;
 import com.pairlearning.expensetracker.exceptions.EtResourceNotFoundException;
-import com.pairlearning.expensetracker.repositories.TransactionRepository;
+import com.pairlearning.expensetracker.dao.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

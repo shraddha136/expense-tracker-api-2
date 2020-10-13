@@ -1,6 +1,6 @@
-package com.pairlearning.expensetracker.repositories;
+package com.pairlearning.expensetracker.dao;
 
-import com.pairlearning.expensetracker.domain.Transaction;
+import com.pairlearning.expensetracker.model.Transaction;
 import com.pairlearning.expensetracker.exceptions.EtBadRequestException;
 import com.pairlearning.expensetracker.exceptions.EtResourceNotFoundException;
 

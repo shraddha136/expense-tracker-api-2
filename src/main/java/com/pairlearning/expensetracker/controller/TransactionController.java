@@ -1,6 +1,6 @@
-package com.pairlearning.expensetracker.resources;
+package com.pairlearning.expensetracker.controller;
 
-import com.pairlearning.expensetracker.domain.Transaction;
+import com.pairlearning.expensetracker.model.Transaction;
 import com.pairlearning.expensetracker.services.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/categories/{categoryId}/transactions")
-public class TransactionResource {
+public class TransactionController {
 
     @Autowired
     TransactionService transactionService;

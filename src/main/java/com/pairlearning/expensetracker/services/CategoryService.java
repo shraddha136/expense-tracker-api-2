@@ -1,6 +1,6 @@
 package com.pairlearning.expensetracker.services;
 
-import com.pairlearning.expensetracker.domain.Category;
+import com.pairlearning.expensetracker.model.Category;
 import com.pairlearning.expensetracker.exceptions.EtBadRequestException;
 import com.pairlearning.expensetracker.exceptions.EtResourceNotFoundException;
 

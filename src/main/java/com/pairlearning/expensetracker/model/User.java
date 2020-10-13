@@ -1,4 +1,4 @@
-package com.pairlearning.expensetracker.domain;
+package com.pairlearning.expensetracker.model;
 
 public class User {
 

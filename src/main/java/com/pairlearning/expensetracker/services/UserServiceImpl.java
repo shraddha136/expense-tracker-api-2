@@ -1,8 +1,8 @@
 package com.pairlearning.expensetracker.services;
 
-import com.pairlearning.expensetracker.domain.User;
+import com.pairlearning.expensetracker.model.User;
 import com.pairlearning.expensetracker.exceptions.EtAuthException;
-import com.pairlearning.expensetracker.repositories.UserRepository;
+import com.pairlearning.expensetracker.dao.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

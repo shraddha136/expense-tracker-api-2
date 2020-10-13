@@ -1,6 +1,6 @@
-package com.pairlearning.expensetracker.resources;
+package com.pairlearning.expensetracker.controller;
 
-import com.pairlearning.expensetracker.domain.Category;
+import com.pairlearning.expensetracker.model.Category;
 import com.pairlearning.expensetracker.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/categories")
-public class CategoryResource {
+public class CategoryController {
 
     @Autowired
     CategoryService categoryService;
